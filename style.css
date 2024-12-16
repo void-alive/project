@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+}
+
+/* 헤더 */
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-bg.jpg) center no-repeat;
+  background-size: cover;
+  padding: 10px 8%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.lang i:nth-child(1) {
+  margin-right: 8px;
+}
+
+.lang i:nth-child(2) {
+  margin-left: 5px;
+}
